@@ -71,32 +71,33 @@ h3 {
 }
 
 #life{
-	width: 400px;  
-	height: 400px;  
-	border: 10px solid rgb(119, 188, 101);    
-	position: absolute;  
-	left:100px;
-	top: 200px;
+	width: 720px; 
+	height: 405px;
+	margin: 30px;
+	border: 10px solid rgb(107, 190, 106);  
+	position: relative;  
+	left:380px;
+	top: 10px;
 }
 	
 #doggy{
-	width: 420px; 
-	height: 650px; 
-	border: 10px solid rgb(74, 61, 64);  
-	object-fit: none;  
-	position: absolute;  
-	left:600px;
-	top: 120px;
+	width: 720px; 
+	height: 405px;
+	margin: 30px;
+	border: 10px solid rgb(104, 84, 84);  
+	position: relative;  
+	left:380px;
+	top: 10px;
 }
 	
 #school{
-	width: 290px; 
-	height: 380px; 
-	border: 10px solid red;  
-	object-fit: none;  
-	position: absolute;  
-	left:1100px;
-	top: 200px;
+	width: 720px; 
+	height: 405px;
+	margin: 30px;
+	border: 10px solid rgb(210, 13, 13);  
+	position: relative;  
+	left:380px;
+	top: 10px;
 }
 
 #sox{
