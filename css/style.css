@@ -85,8 +85,8 @@ h3 {
 	border: 10px solid rgba(151, 114, 114, 0.859);  
 	object-fit: none;  
 	position: absolute;  
-	left:600px;
-	top: 120px;
+	left:100px;
+	top: 200px;
 }
 	
 #school{
@@ -95,7 +95,7 @@ h3 {
 	border: 10px solid rgb(108, 109, 184);  
 	object-fit: none;  
 	position: absolute;  
-	left:1100px;
+	left:100px;
 	top: 200px;
 }
 
