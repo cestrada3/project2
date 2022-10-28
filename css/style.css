@@ -71,8 +71,8 @@ h3 {
 }
 
 #life{
-	width: 720px; 
-	height: 550px;
+	width: 520px; 
+	height: 350px;
 	margin: 30px;
 	border: 10px solid rgb(107, 190, 106);  
 	position: relative;  
@@ -81,8 +81,8 @@ h3 {
 }
 	
 #doggy{
-	width: 500px; 
-	height: 605px;
+	width: 300px; 
+	height: 405px;
 	margin: 30px;
 	border: 10px solid rgb(104, 84, 84);  
 	position: relative;  
@@ -91,8 +91,8 @@ h3 {
 }
 	
 #school{
-	width: 720px; 
-	height: 500px;
+	width: 520px; 
+	height: 300px;
 	margin: 30px;
 	border: 10px solid rgb(210, 13, 13);  
 	position: relative;  
