@@ -126,3 +126,11 @@ h3 {
 	left:380px;
 	top: 10px;
 }
+#smart{
+	width: 680px; 
+	height: 380px; 
+	border: 10px solid rgb(52, 144, 225);    
+	position: relative;  
+	left:420px;
+	top: 10px;
+}
