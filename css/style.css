@@ -6,7 +6,7 @@ ol, ul{
 	  float: none!important;
   }
   section h3 {
-	  background-color: #d0b6b6;
+	  background-color: #9898987d;
 	  color: #000000;
   }
   
@@ -15,7 +15,7 @@ ol, ul{
   }
   body {
 	  font-family: 'Roboto', sans-serif;
-	  background-color: #ce9a9a;
+	  background-color: #939393;
 	  font-size: 1em;
 	  font-weight: bold;
 	  font-weight: 500;
@@ -52,7 +52,7 @@ ol, ul{
   h1{
 	font-size: 1.602em;
 	line-height:2em;
-	background-color: #1e27cf;
+	background-color: #757575;
 	color: #000000;
   }
   h2{
