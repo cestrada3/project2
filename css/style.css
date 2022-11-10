@@ -2,14 +2,11 @@ ol, ul{
 	list-style: none;
   }
   
-  section a {
-	  color: #26c99f;
-  }
   section p {
 	  float: none!important;
   }
   section h3 {
-	  background-color: #B0B0B0;
+	  background-color: #d0b6b6;
 	  color: #000000;
   }
   
@@ -18,7 +15,7 @@ ol, ul{
   }
   body {
 	  font-family: 'Roboto', sans-serif;
-	  background-color: #dadada;
+	  background-color: #ce9a9a;
 	  font-size: 1em;
 	  font-weight: bold;
 	  font-weight: 500;
@@ -36,7 +33,7 @@ ol, ul{
   }
   header nav ul li{
 	margin-bottom: 5px;
-	color: #77f;
+	color: rgb(46, 46, 76);
 	width: max-content;
   }
   header nav ul li:nth-child(1){
@@ -55,14 +52,14 @@ ol, ul{
   h1{
 	font-size: 1.602em;
 	line-height:2em;
-	background-color: #cf1e1e;
-	color: #f8d4bf;
+	background-color: #1e27cf;
+	color: #000000;
   }
   h2{
 	font-size: 1.424em;
 	line-height:1.5em;
-	background-color: #404040;
-	color: #ffffff;
+	background-color: #c7b0b085;
+	color: #000000;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -133,5 +130,5 @@ ol, ul{
 	padding: 10px 0;
   }
   footer {
-	  color:#ff0000
+	  color:#122321
   }
