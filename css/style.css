@@ -1,136 +1,137 @@
-body{
-	background-color: #365db1;
-	font-family: 'Oswald', sans-serif;
-	font-size: 1.1em;
+ol, ul{
+	list-style: none;
+  }
+  
+  section a {
+	  color: #26c99f;
+  }
+  section p {
+	  float: none!important;
+  }
+  section h3 {
+	  background-color: #B0B0B0;
+	  color: #000000;
+  }
+  
+  *{
+	  box-sizing: border-box;
+  }
+  body {
+	  font-family: 'Roboto', sans-serif;
+	  background-color: #dadada;
+	  font-size: 1em;
+	  font-weight: bold;
+	  font-weight: 500;
+	  /* font-size: 1.5rem; */
+  }
+  
+  header{
+	width: 100%;
+  }
+  header nav ul{
+	  text-align: center;
+	  display: block;
+	  margin: 0 auto;
+	  width: max-content;
+  }
+  header nav ul li{
+	margin-bottom: 5px;
+	color: #77f;
+	width: max-content;
+  }
+  header nav ul li:nth-child(1){
+	float: left;
+  }
+  header nav ul li:nth-child(2){
+	float: right;
+  }
+  header nav ul li:nth-child(3){
+	float: right;
+  }
+  h1, h2, h3, h4, h5{
+	font-weight: bold;
+	padding-bottom: 1px;
+  }
+  h1{
+	font-size: 1.602em;
+	line-height:2em;
+	background-color: #cf1e1e;
+	color: #f8d4bf;
+  }
+  h2{
+	font-size: 1.424em;
+	line-height:1.5em;
+	background-color: #404040;
+	color: #ffffff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+  }
+  h3{
+	font-size: 1.266em;
+	line-height:1.3em;
+  }
+  h4{
+	font-size: 1.125em;
+  }
+  li{
+	padding-left: 10px;
+  }
+  p ~ p{
+	padding-top: 5px;
+  }
+  nav{
+	height: 30px;
+	margin-top: 10px;
+  }
+  section{
+	padding: 10px 0;
+  }
+  section section{
+	padding: 0 10px;
+  }
+  main{
+	padding: 0 10px;
+  }
+  @media screen and (min-width: 700px){
+	section{
+	  height: max-content;
+	  display: inline-block;
 	}
-
-header {
-  background-color: #8fbdd9;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
-  display: inline-block
-}
-
-#main-navbar ul li {
-  float: left;
-  position: relative;
-}
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 234px;
-  color: #fff;
-  text-decoration: Highlight;
-  font-weight: bold;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #365ad1;
-}
-
-#navbar-container {
-  width: 100%;
-  position: relative;
-  text-align: center;
-}
-
-h1 {
-	text-align: center;
-	background-color: #3364F5;
-	color: #000000;
-}
-
-h4 {
-	text-align: center;
-	background-color: #686cdc;
-	color: #000000;
-	margin: 30px;
-	padding: 5px;
-}
-
-h2{
-	background-color: #6d8af3;
-    font-size: 2em;
-    color: #000000;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
-h3 {
-    background-color: #b6b5ff;
-    color: #000000;
-	padding: 2px;
-}
-
-#life{
-	width: 450px; 
-	height: 350px;
-	margin: 30px;
-	border: 10px solid rgb(107, 190, 106);  
-	position: relative;  
-	left:380px;
-	top: 10px;
-}
-	
-#doggy{
-	width: 300px; 
-	height: 405px;
-	margin: 30px;
-	border: 10px solid rgb(104, 84, 84);  
-	position: relative;  
-	left:380px;
-	top: 10px;
-}
-	
-#school{
-	width: 420px; 
-	height: 300px;
-	margin: 30px;
-	border: 10px solid rgb(210, 13, 13);  
-	position: relative;  
-	left:380px;
-	top: 10px;
-}
-
-#sox{
-	width: 680px; 
-	height: 380px; 
-	border: 10px solid rgb(168, 164, 164);  
-	position: relative;  
-	left:420px;
-	top: 10px;
-}
-#bulls{
-	width: 680px; 
-	height: 380px; 
-	border: 10px solid rgb(225, 52, 52);    
-	position: relative;  
-	left:420px;
-	top: 10px;
-}
-
-#hawks{
-	width: 620px; 
-	height: 405px;
-	margin: 30px;
-	border: 10px solid rgb(210, 13, 13);  
-	position: relative;  
-	left:380px;
-	top: 10px;
-}
-#smart{
-	width: 450px; 
-	height: 380px; 
-	border: 10px solid rgb(52, 144, 225);    
-	position: relative;  
-	left:420px;
-	top: 10px;
-}
+	section h1, section p{
+	  float: left;
+	}
+	.image-holder img{
+	  width: auto;
+	}
+	.image-holder img:nth-child(2n){
+	  float: left;
+	}
+	.image-holder img:nth-child(2n+1){
+	  float: right;
+	}
+  }
+  @media screen and (min-width: 1050px){
+	body{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	}
+	main{
+	  width: 1050px;
+	}
+  }
+  img{
+	  height: 100%;
+	  width: 100%;
+	  object-fit: cover;
+	  padding: 5px 0;
+  }
+  iframe {
+	width: 100%;
+	padding: 10px 0;
+  }
+  footer {
+	  color:#ff0000
+  }
